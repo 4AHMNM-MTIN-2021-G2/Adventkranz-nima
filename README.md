@@ -15,7 +15,7 @@ The design is pretty minimalistic with a solid background and four candles for e
 
 ### Visuals: 
 <div>
-<img src = "./Screenshots/Adeventkranz.PNG" >
+<img src = "./Screenshots/Adventkranz.PNG" >
 </div>
 
 ### Necessary setup/execution steps: 
