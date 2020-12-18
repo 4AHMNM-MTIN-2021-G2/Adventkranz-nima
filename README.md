@@ -1,28 +1,38 @@
-# Template2D-Unity202015f1
+# Adventkranz-nima
 
 ### Project description: 
-Introduction/Project summary 
+
+In this project we will create a kind of countdown until christmas day.
+The design is pretty minimalistic with a solid background and four candles for each Advent Sunday - a scribble can be found under the bulletpoint "Visuals"
 
 ### Development platform: 
-(OS, Unity Version, Visual Studio Version, used SDKs)
+* Windows 10
+* Unity Version: 2020.1.5f1
+* Visual Studio 2019
 
 ### Target platform: 
-WebGL, Mobile, VR Device incl. reference resolution 
+* 2D WebGL (960 x 600 screenindependent)
 
 ### Visuals: 
-Screenshots (concept and experience), Video
+<div>
+<img src = "./Screenshots/Adeventkranz.PNG" >
+</div>
 
 ### Necessary setup/execution steps: 
-Installation process, e.g. step by step instructions that I can run the project after cloning it
+
 
 ### Third party material: 
-(if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
+* Template2D-Unity202015f1
 
 ### Project state: 
-incl. progress in percent
+* around 50% progress
 
 ### Limitations: 
+None
 
 ### Lessons Learned: 
+* Revision of Github and creating a repository
+* Revision of building scenes
+* Revision of some C# basics
 
-Copyright by you :)
+Copyright by nima
