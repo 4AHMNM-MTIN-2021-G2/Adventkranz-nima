@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class CountDays : MonoBehaviour
@@ -27,21 +25,15 @@ public class CountDays : MonoBehaviour
         fourthAdvent = new System.DateTime(2020, 12, 20);
 
         currentDay = System.DateTime.Today;
-        Debug.Log(currentDay);
 
         while((currentDay.CompareTo(christmasDay) < 0))
         {
             currentDay = currentDay.AddDays(1);
-            Debug.Log("current day" + currentDay);
             days++;
         }
 
         daysGui.text = days.ToString();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
 }
