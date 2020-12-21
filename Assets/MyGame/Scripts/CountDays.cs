@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CountDays : MonoBehaviour
 {
+    public Text daysGui;
 
     System.DateTime christmasDay;
     System.DateTime firstAdvent;
@@ -13,6 +15,7 @@ public class CountDays : MonoBehaviour
     System.DateTime currentDay;
 
     int days = 0;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +35,8 @@ public class CountDays : MonoBehaviour
             Debug.Log("current day" + currentDay);
             days++;
         }
+
+        daysGui.text = days.ToString();
     }
 
     // Update is called once per frame
