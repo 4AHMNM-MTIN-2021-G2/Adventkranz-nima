@@ -10,7 +10,9 @@ public class CountDays : MonoBehaviour
     System.DateTime secondAdvent;
     System.DateTime thirdAdvent;
     System.DateTime fourthAdvent;
+    System.DateTime currentDay;
 
+    int days = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +22,16 @@ public class CountDays : MonoBehaviour
         secondAdvent = new System.DateTime(2020, 12, 6);
         thirdAdvent = new System.DateTime(2020, 12, 13);
         fourthAdvent = new System.DateTime(2020, 12, 20);
+
+        currentDay = System.DateTime.Today;
+        Debug.Log(currentDay);
+
+        while((currentDay.CompareTo(christmasDay) < 0))
+        {
+            currentDay = currentDay.AddDays(1);
+            Debug.Log("current day" + currentDay);
+            days++;
+        }
     }
 
     // Update is called once per frame
