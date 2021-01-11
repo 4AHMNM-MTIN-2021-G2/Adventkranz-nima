@@ -24,7 +24,7 @@ public class CountDays : MonoBehaviour
         thirdAdvent = new System.DateTime(2020, 12, 13);
         fourthAdvent = new System.DateTime(2020, 12, 20);
 
-        currentDay = System.DateTime.Today;
+        currentDay = firstAdvent;
 
         TotalDaysToChristmas();
 
