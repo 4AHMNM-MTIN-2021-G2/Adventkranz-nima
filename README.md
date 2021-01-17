@@ -43,7 +43,7 @@ None
 * Why using a SC? 
 	* Saving and storing data during an Editor session
 	* Saving data as an Asset in your Project to use at run time
-*How to create a SC:
+* How to create a SC:
 	* Create script in Assets folder
 	* Instead of writing MonoBehaviour, we write ScriptableObject in our class
 	* Fill script with data of object
