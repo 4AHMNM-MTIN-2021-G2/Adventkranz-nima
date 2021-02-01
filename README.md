@@ -6,14 +6,17 @@ In this project we will create a kind of countdown until christmas day.
 The design is pretty minimalistic with a solid background and four candles for each Advent Sunday - a scribble can be found under the bulletpoint "Visuals"
 
 ### Development platform: 
+
 * Windows 10
 * Unity Version: 2020.1.5f1
 * Visual Studio 2019
 
 ### Target platform: 
+
 * 2D WebGL (960 x 600 screenindependent)
 
 ### Visuals: 
+
 <div>
 <img src = "./Screenshots/Adventkranz.PNG" >
 </div>
@@ -24,20 +27,27 @@ The design is pretty minimalistic with a solid background and four candles for e
 
 ### Necessary setup/execution steps: 
 
+* none
 
 ### Third party material: 
+
 * Template2D-Unity202015f1
 
 ### Project state: 
-* around 90% progress
+
+* 100%
 
 ### Limitations: 
-None
+
+* None
 
 ### Lessons Learned: 
+
+* Revision of C# basics
 * Revision of Github and creating a repository
 * Revision of building scenes
-* Revision of some C# basics
+
+
 
 * Definition SC: A ScriptableObject is a data container that you can use to save large amounts of data, independent of class instances
 * Why using a SC? 
